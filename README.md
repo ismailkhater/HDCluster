@@ -1,4 +1,4 @@
-# HDCluster Documentation  ![HDCluster Image 1](HDCluster_images/hdcluster-logo.png)
+# HDCluster Documentation  ![HDCluster Image 1](HDCluster_images/hdcluster-logo_large.svg)
 
 ## Overview
 
@@ -91,6 +91,7 @@ In the **Load Data** tab, you can specify the pixel size of your data. For examp
 ![HDCluster Image 12](HDCluster_images/img12.png)
 
 The resulting clustered localizations and reconstructed binding sites can be saved as CSV files for further analysis.
+
 
 
 
