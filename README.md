@@ -1,4 +1,4 @@
-# HDCluster Documentation  ![HDCluster Image 1](HDCluster_images/hdcluster-logo_large.svg)
+# HDCluster Documentation  ![HDCluster Image 1](HDCluster_images/hdcluster-logo.png)
 
 ## Overview
 
