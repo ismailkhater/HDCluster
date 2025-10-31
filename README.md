@@ -29,12 +29,13 @@ HDCluster requires the MATLAB Runtime (MCR), which will be installed automatical
 1.  Double-click the `HDCluster_App_Installer.exe` file to launch the installer. Click **Next** to continue.
 ![HDCluster Image 1](HDCluster_images/img1.png)
 2.  Choose the destination folder for the installation. The default is `C:\Program Files\HDCluster`, but you can select a different location. You can also add a shortcut to your desktop. Click **Next**.
-
+![HDCluster Image 2](HDCluster_images/img2.png)
 3.  The installer will check for the MATLAB Runtime (MCR). If it's not found, it will be downloaded and installed from the web. Click **Begin Install** to start the process.
-
+![HDCluster Image 3](HDCluster_images/img3.png)
 4.  Once the installation is complete, click **Close** to exit the wizard.
-
+![HDCluster Image 4](HDCluster_images/img4.png)
 5.  You can now launch the HDCluster application from the Start Menu or your desktop shortcut.
+![HDCluster Image 5](HDCluster_images/img5.png)
 
 ## Supported Data Formats
 
@@ -49,22 +50,34 @@ HDCluster supports a variety of file formats, including:
 
 Regardless of the file format, the file must contain a header with acquisition information for the localizations. For 2D data, the file must include `X` and `Y` columns. For 3D data, `X`, `Y`, and `Z` columns are required. Please ensure that the column labels do not contain prefixes or postfixes (e.g., use `X` instead of `X (nm)`).
 
+Below are examples of sample files in both 2D and 3D formats. Each example illustrates the file header, which contains metadata and parameters, followed by a preview of the first few rows of localization data.
+
+*   Sample `.txt` file data
+![HDCluster Image 6](HDCluster_images/img6.png)
+ 
+*   Sample `.csv` file data
+![HDCluster Image 7](HDCluster_images/img7.png)
+
 ## Using HDCluster
 
 ### Loading and Visualizing Data
 
 The **Load Data** tab allows you to load and visualize your dataset. 
+![HDCluster Image 8](HDCluster_images/img8.png)
 
 1.  Load your data file.
 2.  Click on any column header to color the visualized data by that column and display a histogram of the selected data, providing insight into its distribution.
 
 Users can sort localizations by clicking the up/down arrows in the column headers. The application also provides options to change the histogram normalization method and customize the point visualization by adjusting the size, colormap, and transparency.
+![HDCluster Image 9](HDCluster_images/img9.png)
 
-Interactive plot features include zooming, panning, and rotating the data (for 3D). You can also view the data in various projections (e.g., XY, XZ). Right-clicking on the plot reveals a context menu with additional visualization functions. Figures can be saved in various formats using the save icon in the plot's toolbar.
+Interactive plot features include zooming, panning, and rotating the data (for 3D). You can also view the data in various projections (e.g., XY, XZ). Right-clicking on the plot reveals a context menu with additional visualization functions. Figures can be saved in various formats using the save icon in the plot's tooltip.
+![HDCluster Image 10](HDCluster_images/img10.png)
 
 ### Setting Pixel Size
 
 In the **Load Data** tab, you can specify the pixel size of your data. For example, for DNA-PAINT data with a pixel size of 130 nm, you would enter `130` in the pixel size text field.
+![HDCluster Image 11](HDCluster_images/img11.png)
 
 ### Cluster Analysis
 
@@ -72,7 +85,9 @@ In the **Load Data** tab, you can specify the pixel size of your data. For examp
 2.  Set the `mTh` parameter.
 3.  Enable or disable the denoising option as needed.
 4.  After running the analysis, the localizations will be color-coded in the plot according to their identified cluster memberships.
+![HDCluster Image 12](HDCluster_images/img12.png)
 
 The resulting clustered localizations and reconstructed binding sites can be saved as CSV files for further analysis.
+
 
 
