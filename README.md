@@ -27,7 +27,7 @@ HDCluster requires the MATLAB Runtime (MCR), which will be installed automatical
 ### Windows Installation Guide
 
 1.  Double-click the `HDCluster_App_Installer.exe` file to launch the installer. Click **Next** to continue.
-
+![HDCluster Image 1](HDCluster_images/img1.png)
 2.  Choose the destination folder for the installation. The default is `C:\Program Files\HDCluster`, but you can select a different location. You can also add a shortcut to your desktop. Click **Next**.
 
 3.  The installer will check for the MATLAB Runtime (MCR). If it's not found, it will be downloaded and installed from the web. Click **Begin Install** to start the process.
@@ -74,4 +74,5 @@ In the **Load Data** tab, you can specify the pixel size of your data. For examp
 4.  After running the analysis, the localizations will be color-coded in the plot according to their identified cluster memberships.
 
 The resulting clustered localizations and reconstructed binding sites can be saved as CSV files for further analysis.
+
 
