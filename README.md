@@ -1,11 +1,11 @@
 # HDCluster Documentation  ![HDCluster Image 1](HDCluster_images/hdcluster-logo.png)
 
 ## 📘 Table of Contents
-- [🧩 Overview](#overview)
-- [⚙️ Installation](#installation)
-- [📂 Supported Data Formats](#supported-data-formats)
-- [🚀 Using HDCluster](#using-hdcluster)
-- [🎬 Demo Videos](#demo-videos)
+- [🧩 Overview](#-overview)
+- [⚙️ Installation](#%EF%B8%8F-installation)
+- [📂 Supported Data Formats](#-supported-data-formats)
+- [🚀 Using HDCluster](#-using-hdcluster)
+- [🎬 Demo Videos](#-watch-demo-videos-here)
   
 
 ## 🧩 Overview
@@ -103,6 +103,7 @@ The resulting clustered localizations and reconstructed binding sites can be sav
 ## 📺 Watch Demo Videos Here
 
 You can find all demo videos in the [Demo Videos](Demo_Videos.md) section.
+
 
 
 
