@@ -1,12 +1,14 @@
 # HDCluster Documentation  ![HDCluster Image 1](HDCluster_images/hdcluster-logo.png)
 
 ## 📘 Table of Contents
-- [Overview](#overview)
-- [Installation](#installation)
-- [Supported Data Formats](#supported-data-formats)
-- [Demo Videos](#-watch-demo-videos-here)
+- [🧩 Overview](#overview)
+- [⚙️ Installation](#installation)
+- [📂 Supported Data Formats](#supported-data-formats)
+- [🚀 Using HDCluster](#using-hdcluster)
+- [🎬 Demo Videos](#demo-videos)
+  
 
-## Overview
+## 🧩 Overview
 
 HDCluster is available as a preprint on `bioRxiv` 
 (**DOI:** https://doi.org/10.1101/2025.10.23.684134). 
@@ -19,7 +21,7 @@ One of the key advantages of HDCluster is its minimal calibration requirement. I
 
 HDCluster's strength lies in its ability to identify clusters of various shapes and densities while automatically filtering out noisy localizations. By combining density-based clustering with graph-based techniques, HDCluster provides robust and accurate cluster identification in SMLM datasets, which is crucial for precise emitter reconstruction and other super-resolution microscopy applications.
 
-## Installation
+## ⚙️ Installation
 
 A compiled version of HDCluster is available for  Windows. The installation process is straightforward.
 
@@ -46,7 +48,7 @@ HDCluster requires the MATLAB Runtime (MCR), which will be installed automatical
 ![HDCluster Image 5](HDCluster_images/img5.png)
 
 
-## Supported Data Formats
+## 📂 Supported Data Formats
 
 HDCluster supports a variety of file formats, including:
 
@@ -67,7 +69,7 @@ Below are examples of sample files in both 2D and 3D formats. Each example illus
 *   Sample `.csv` file data
 ![HDCluster Image 7](HDCluster_images/img7.png)
 
-## Using HDCluster
+## 🚀 Using HDCluster
 
 ### Loading and Visualizing Data
 
@@ -101,6 +103,7 @@ The resulting clustered localizations and reconstructed binding sites can be sav
 ## 📺 Watch Demo Videos Here
 
 You can find all demo videos in the [Demo Videos](Demo_Videos.md) section.
+
 
 
 
