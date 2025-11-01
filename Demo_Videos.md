@@ -1,4 +1,4 @@
-# HDCluster Data Analysis Demos Videos
+# HDCluster Data Analysis Demo Videos
 
 - 2D data analysis 
    
