@@ -1,5 +1,11 @@
 # HDCluster Documentation  ![HDCluster Image 1](HDCluster_images/hdcluster-logo.png)
 
+## 📘 Table of Contents
+- [Overview](#overview)
+- [Installation](#installation)
+- [Supported Data Formats](#supported-data-formats)
+- [Demo Videos](#-watch-demo-videos-here)
+
 ## Overview
 
 HDCluster is available as a preprint on `bioRxiv` 
@@ -92,9 +98,10 @@ In the **Load Data** tab, you can specify the pixel size of your data. For examp
 
 The resulting clustered localizations and reconstructed binding sites can be saved as CSV files for further analysis.
 
-### 📺 Watch Demo Videos Here
+## 📺 Watch Demo Videos Here
 
 You can find all demo videos in the [Demo Videos](Demo_Videos.md) section.
+
 
 
 
