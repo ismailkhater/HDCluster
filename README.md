@@ -49,7 +49,7 @@ HDCluster supports a variety of file formats, including:
 *   `.csv`
 *   `.xyz`
 *   `.3dlp`
-*   ASCII files
+*   `.ascci` 
 
 Regardless of the file format, the file must contain a header with acquisition information for the localizations. For 2D data, the file must include `X` and `Y` columns. For 3D data, `X`, `Y`, and `Z` columns are required. Please ensure that the column labels do not contain prefixes or postfixes (e.g., use `X` instead of `X (nm)`).
 
@@ -91,6 +91,7 @@ In the **Load Data** tab, you can specify the pixel size of your data. For examp
 ![HDCluster Image 12](HDCluster_images/img12.png)
 
 The resulting clustered localizations and reconstructed binding sites can be saved as CSV files for further analysis.
+
 
 
 
