@@ -1,5 +1,7 @@
 # HDCluster Data Analysis Demo Videos
 
+Click the image to play the video.
+
 - 2D data analysis 
    
   [![HDCluster 2D data analysis](https://img.youtube.com/vi/X-E382sBW1o/maxresdefault.jpg)](https://youtu.be/X-E382sBW1o)
