@@ -7,7 +7,7 @@
 ![HDCluster Image 2](HDCluster_images/img2.png)
 
 5.  The installer will check for the MATLAB Runtime (MCR). If it's not found, it will be downloaded and installed from the web. Click **Begin Install** to start the process.
-![HDCluster Image 3](HDCluster_images/img3.png)
+[HDCluster Image 3](HDCluster_images/img3.png)
 
 7.  Once the installation is complete, click **Close** to exit the wizard.
 ![HDCluster Image 4](HDCluster_images/img4.png)
